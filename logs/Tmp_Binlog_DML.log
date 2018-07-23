@@ -1,0 +1,890 @@
+/*!50530 SET @@SESSION.PSEUDO_SLAVE_MODE=1*/;
+/*!50003 SET @OLD_COMPLETION_TYPE=@@COMPLETION_TYPE,COMPLETION_TYPE=0*/;
+DELIMITER /*!*/;
+# at 83185489
+#180704 16:00:00 server id 1  end_log_pos 83185554 CRC32 0xbf5c11f8 	Anonymous_GTID	last_committed=9973	sequence_number=9974
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83185554
+#180704 16:00:00 server id 1  end_log_pos 83185617 CRC32 0xc9fe2f92 	Query	thread_id=880275	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691200/*!*/;
+SET @@session.pseudo_thread_id=880275/*!*/;
+SET @@session.foreign_key_checks=1, @@session.sql_auto_is_null=0, @@session.unique_checks=1, @@session.autocommit=1/*!*/;
+SET @@session.sql_mode=524288/*!*/;
+SET @@session.auto_increment_increment=1, @@session.auto_increment_offset=1/*!*/;
+/*!\C utf8 *//*!*/;
+SET @@session.character_set_client=33,@@session.collation_connection=33,@@session.collation_server=33/*!*/;
+SET @@session.lc_time_names=0/*!*/;
+SET @@session.collation_database=DEFAULT/*!*/;
+BEGIN
+/*!*/;
+# at 83185617
+# at 83185709
+# at 83186411
+#180704 16:00:00 server id 1  end_log_pos 83186442 CRC32 0x5ef9062e 	Xid = 37699
+COMMIT/*!*/;
+# at 83186442
+#180704 16:00:00 server id 1  end_log_pos 83186507 CRC32 0x2b91381a 	Anonymous_GTID	last_committed=9974	sequence_number=9975
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83186507
+#180704 16:00:00 server id 1  end_log_pos 83186570 CRC32 0x199540ad 	Query	thread_id=880309	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691200/*!*/;
+BEGIN
+/*!*/;
+# at 83186570
+# at 83186662
+# at 83186866
+#180704 16:00:00 server id 1  end_log_pos 83186897 CRC32 0x0ea51663 	Xid = 37701
+COMMIT/*!*/;
+# at 83186897
+#180704 16:00:00 server id 1  end_log_pos 83186962 CRC32 0xfa8fc84e 	Anonymous_GTID	last_committed=9975	sequence_number=9976
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83186962
+#180704 16:00:00 server id 1  end_log_pos 83187025 CRC32 0x5b9b7948 	Query	thread_id=862325	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691200/*!*/;
+BEGIN
+/*!*/;
+# at 83187025
+# at 83187121
+# at 83189044
+#180704 16:00:00 server id 1  end_log_pos 83189075 CRC32 0xa90830b9 	Xid = 37703
+COMMIT/*!*/;
+# at 83189075
+#180704 16:00:00 server id 1  end_log_pos 83189140 CRC32 0x1145941a 	Anonymous_GTID	last_committed=9976	sequence_number=9977
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83189140
+#180704 16:00:00 server id 1  end_log_pos 83189203 CRC32 0xe9250bef 	Query	thread_id=862325	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691200/*!*/;
+BEGIN
+/*!*/;
+# at 83189203
+# at 83189299
+# at 83191222
+#180704 16:00:00 server id 1  end_log_pos 83191253 CRC32 0x9a49b89d 	Xid = 37705
+COMMIT/*!*/;
+# at 83191253
+#180704 16:00:00 server id 1  end_log_pos 83191318 CRC32 0xb60a6c78 	Anonymous_GTID	last_committed=9977	sequence_number=9978
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83191318
+#180704 16:00:00 server id 1  end_log_pos 83191381 CRC32 0x0a528a02 	Query	thread_id=862325	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691200/*!*/;
+BEGIN
+/*!*/;
+# at 83191381
+# at 83191477
+# at 83193400
+#180704 16:00:00 server id 1  end_log_pos 83193431 CRC32 0x5db82b0c 	Xid = 37707
+COMMIT/*!*/;
+# at 83193431
+#180704 16:00:00 server id 1  end_log_pos 83193496 CRC32 0xcc1c8345 	Anonymous_GTID	last_committed=9978	sequence_number=9979
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83193496
+#180704 16:00:00 server id 1  end_log_pos 83193559 CRC32 0xb8ecf8a5 	Query	thread_id=862325	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691200/*!*/;
+BEGIN
+/*!*/;
+# at 83193559
+# at 83193655
+# at 83195578
+#180704 16:00:00 server id 1  end_log_pos 83195609 CRC32 0x3d3bed5e 	Xid = 37709
+COMMIT/*!*/;
+# at 83195609
+#180704 16:00:00 server id 1  end_log_pos 83195674 CRC32 0x7fa0313d 	Anonymous_GTID	last_committed=9979	sequence_number=9980
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83195674
+#180704 16:00:00 server id 1  end_log_pos 83195737 CRC32 0xfcf1b917 	Query	thread_id=862325	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691200/*!*/;
+BEGIN
+/*!*/;
+# at 83195737
+# at 83195833
+# at 83198069
+#180704 16:00:00 server id 1  end_log_pos 83198100 CRC32 0x3326ebc7 	Xid = 37711
+COMMIT/*!*/;
+# at 83198100
+#180704 16:00:00 server id 1  end_log_pos 83198165 CRC32 0x8d240d40 	Anonymous_GTID	last_committed=9980	sequence_number=9981
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83198165
+#180704 16:00:00 server id 1  end_log_pos 83198228 CRC32 0x00c19971 	Query	thread_id=862325	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691200/*!*/;
+BEGIN
+/*!*/;
+# at 83198228
+# at 83198324
+# at 83200247
+#180704 16:00:00 server id 1  end_log_pos 83200278 CRC32 0xbf9fe979 	Xid = 37713
+COMMIT/*!*/;
+# at 83200278
+#180704 16:00:00 server id 1  end_log_pos 83200343 CRC32 0x9bf718d7 	Anonymous_GTID	last_committed=9981	sequence_number=9982
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83200343
+#180704 16:00:00 server id 1  end_log_pos 83200406 CRC32 0xb27febd6 	Query	thread_id=862325	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691200/*!*/;
+BEGIN
+/*!*/;
+# at 83200406
+# at 83200502
+# at 83202425
+#180704 16:00:00 server id 1  end_log_pos 83202456 CRC32 0x5b5621d1 	Xid = 37715
+COMMIT/*!*/;
+# at 83202456
+#180704 16:00:00 server id 1  end_log_pos 83202521 CRC32 0xc0c45eff 	Anonymous_GTID	last_committed=9982	sequence_number=9983
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83202521
+#180704 16:00:00 server id 1  end_log_pos 83202584 CRC32 0x6a3ffcbd 	Query	thread_id=862325	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691200/*!*/;
+BEGIN
+/*!*/;
+# at 83202584
+# at 83202680
+# at 83204603
+#180704 16:00:00 server id 1  end_log_pos 83204634 CRC32 0x18edbcba 	Xid = 37717
+COMMIT/*!*/;
+# at 83204634
+#180704 16:00:00 server id 1  end_log_pos 83204699 CRC32 0x0a565713 	Anonymous_GTID	last_committed=9983	sequence_number=9984
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83204699
+#180704 16:00:00 server id 1  end_log_pos 83204762 CRC32 0xd8818e1a 	Query	thread_id=862325	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691200/*!*/;
+BEGIN
+/*!*/;
+# at 83204762
+# at 83204858
+# at 83206781
+#180704 16:00:00 server id 1  end_log_pos 83206812 CRC32 0x7c0321d1 	Xid = 37719
+COMMIT/*!*/;
+# at 83206812
+#180704 16:00:00 server id 1  end_log_pos 83206877 CRC32 0xb892757d 	Anonymous_GTID	last_committed=9984	sequence_number=9985
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83206877
+#180704 16:00:00 server id 1  end_log_pos 83206940 CRC32 0xbab4df4f 	Query	thread_id=880309	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691200/*!*/;
+BEGIN
+/*!*/;
+# at 83206940
+# at 83207032
+# at 83207236
+#180704 16:00:00 server id 1  end_log_pos 83207267 CRC32 0xf6e4046f 	Xid = 37721
+COMMIT/*!*/;
+# at 83207267
+#180704 16:00:00 server id 1  end_log_pos 83207332 CRC32 0xe5da12e2 	Anonymous_GTID	last_committed=9985	sequence_number=9986
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83207332
+#180704 16:00:00 server id 1  end_log_pos 83207395 CRC32 0xfc68060e 	Query	thread_id=880275	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691200/*!*/;
+BEGIN
+/*!*/;
+# at 83207395
+# at 83207487
+# at 83207691
+#180704 16:00:00 server id 1  end_log_pos 83207722 CRC32 0x3b72bee8 	Xid = 37723
+COMMIT/*!*/;
+# at 83207722
+#180704 16:00:00 server id 1  end_log_pos 83207787 CRC32 0xe127532a 	Anonymous_GTID	last_committed=9986	sequence_number=9987
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83207787
+#180704 16:00:00 server id 1  end_log_pos 83207850 CRC32 0x7fb7914d 	Query	thread_id=880275	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691200/*!*/;
+BEGIN
+/*!*/;
+# at 83207850
+# at 83207942
+# at 83208146
+#180704 16:00:00 server id 1  end_log_pos 83208177 CRC32 0xcbcb7178 	Xid = 37725
+COMMIT/*!*/;
+# at 83208177
+#180704 16:00:00 server id 1  end_log_pos 83208242 CRC32 0x1ef6ef61 	Anonymous_GTID	last_committed=9987	sequence_number=9988
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83208242
+#180704 16:00:00 server id 1  end_log_pos 83208305 CRC32 0x5b861fc3 	Query	thread_id=880309	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691200/*!*/;
+BEGIN
+/*!*/;
+# at 83208305
+# at 83208397
+# at 83208601
+#180704 16:00:00 server id 1  end_log_pos 83208632 CRC32 0x9ce77204 	Xid = 37727
+COMMIT/*!*/;
+# at 83208632
+#180704 16:00:00 server id 1  end_log_pos 83208697 CRC32 0x83764cf1 	Anonymous_GTID	last_committed=9988	sequence_number=9989
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83208697
+#180704 16:00:00 server id 1  end_log_pos 83208760 CRC32 0xbf9fe82d 	Query	thread_id=880275	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691200/*!*/;
+BEGIN
+/*!*/;
+# at 83208760
+# at 83208852
+# at 83209056
+#180704 16:00:00 server id 1  end_log_pos 83209087 CRC32 0xcbfb34d3 	Xid = 37729
+COMMIT/*!*/;
+# at 83209087
+#180704 16:00:00 server id 1  end_log_pos 83209152 CRC32 0xcc2903f2 	Anonymous_GTID	last_committed=9989	sequence_number=9990
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83209152
+#180704 16:00:00 server id 1  end_log_pos 83209215 CRC32 0xdc9f7bbe 	Query	thread_id=880317	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691200/*!*/;
+BEGIN
+/*!*/;
+# at 83209215
+# at 83209307
+# at 83209511
+#180704 16:00:00 server id 1  end_log_pos 83209542 CRC32 0x2cbb5787 	Xid = 37731
+COMMIT/*!*/;
+# at 83209542
+#180704 16:00:00 server id 1  end_log_pos 83209607 CRC32 0x59bb0fdc 	Anonymous_GTID	last_committed=9990	sequence_number=9991
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83209607
+#180704 16:00:00 server id 1  end_log_pos 83209670 CRC32 0x59b5b2b3 	Query	thread_id=879877	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691200/*!*/;
+BEGIN
+/*!*/;
+# at 83209670
+# at 83209752
+# at 83209828
+#180704 16:00:00 server id 1  end_log_pos 83209859 CRC32 0x117744b0 	Xid = 37733
+COMMIT/*!*/;
+# at 83209859
+#180704 16:00:00 server id 1  end_log_pos 83209924 CRC32 0xbf28a763 	Anonymous_GTID	last_committed=9991	sequence_number=9992
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83209924
+#180704 16:00:00 server id 1  end_log_pos 83209987 CRC32 0xb107f382 	Query	thread_id=879909	exec_time=4294966490	error_code=0
+SET TIMESTAMP=1530691200/*!*/;
+BEGIN
+/*!*/;
+# at 83209987
+# at 83210194
+# at 83216516
+#180704 16:00:00 server id 1  end_log_pos 83216547 CRC32 0x30203e96 	Xid = 37735
+COMMIT/*!*/;
+# at 83216547
+#180704 16:00:22 server id 1  end_log_pos 83216612 CRC32 0x2ae5eb15 	Anonymous_GTID	last_committed=9992	sequence_number=9993
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83216612
+#180704 16:00:22 server id 1  end_log_pos 83216675 CRC32 0xb9895a4a 	Query	thread_id=880283	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691222/*!*/;
+BEGIN
+/*!*/;
+# at 83216675
+#180704 16:00:22 server id 1  end_log_pos 83216734 CRC32 0x8402565e 	Table_map: `ebtce`.`tiancangcang` mapped to number 2626
+# at 83216734
+#180704 16:00:22 server id 1  end_log_pos 83216774 CRC32 0x619f49c3 	Write_rows: table id 2626 flags: STMT_END_F
+### INSERT INTO `ebtce`.`tiancangcang`
+### SET
+###   @1=4
+###   @2=NULL
+# at 83216774
+#180704 16:00:22 server id 1  end_log_pos 83216805 CRC32 0xe2d34805 	Xid = 37737
+COMMIT/*!*/;
+# at 83216805
+#180704 16:00:25 server id 1  end_log_pos 83216870 CRC32 0xea832f3c 	Anonymous_GTID	last_committed=9993	sequence_number=9994
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83216870
+#180704 16:00:25 server id 1  end_log_pos 83216933 CRC32 0x00713c96 	Query	thread_id=880283	exec_time=4294966490	error_code=0
+SET TIMESTAMP=1530691225/*!*/;
+BEGIN
+/*!*/;
+# at 83216933
+#180704 16:00:25 server id 1  end_log_pos 83216992 CRC32 0x0e9bffae 	Table_map: `ebtce`.`tiancangcang` mapped to number 2626
+# at 83216992
+#180704 16:00:25 server id 1  end_log_pos 83217032 CRC32 0x213820fd 	Write_rows: table id 2626 flags: STMT_END_F
+### INSERT INTO `ebtce`.`tiancangcang`
+### SET
+###   @1=5
+###   @2=NULL
+# at 83217032
+#180704 16:00:25 server id 1  end_log_pos 83217063 CRC32 0xec057717 	Xid = 37739
+COMMIT/*!*/;
+# at 83217063
+#180704 16:02:00 server id 1  end_log_pos 83217128 CRC32 0x627d7313 	Anonymous_GTID	last_committed=9994	sequence_number=9995
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83217128
+#180704 16:02:00 server id 1  end_log_pos 83217191 CRC32 0x470a3f1c 	Query	thread_id=880261	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691320/*!*/;
+BEGIN
+/*!*/;
+# at 83217191
+# at 83217273
+# at 83217349
+#180704 16:02:00 server id 1  end_log_pos 83217380 CRC32 0x5799be22 	Xid = 37751
+COMMIT/*!*/;
+# at 83217380
+#180704 16:03:11 server id 1  end_log_pos 83217445 CRC32 0x6378e255 	Anonymous_GTID	last_committed=9995	sequence_number=9996
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83217445
+#180704 16:03:11 server id 1  end_log_pos 83217508 CRC32 0x1519073b 	Query	thread_id=880089	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691391/*!*/;
+BEGIN
+/*!*/;
+# at 83217508
+# at 83217602
+# at 83217900
+#180704 16:03:11 server id 1  end_log_pos 83217931 CRC32 0x0f5bd051 	Xid = 37753
+COMMIT/*!*/;
+# at 83217931
+#180704 16:03:11 server id 1  end_log_pos 83217996 CRC32 0x3ced01c4 	Anonymous_GTID	last_committed=9996	sequence_number=9997
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83217996
+#180704 16:03:11 server id 1  end_log_pos 83218059 CRC32 0x81e3e6a2 	Query	thread_id=880089	exec_time=4294966490	error_code=0
+SET TIMESTAMP=1530691391/*!*/;
+BEGIN
+/*!*/;
+# at 83218059
+# at 83218142
+# at 83218367
+#180704 16:03:11 server id 1  end_log_pos 83218398 CRC32 0xb03344bb 	Xid = 37755
+COMMIT/*!*/;
+# at 83218398
+#180704 16:03:12 server id 1  end_log_pos 83218463 CRC32 0x78c55bb1 	Anonymous_GTID	last_committed=9997	sequence_number=9998
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83218463
+#180704 16:03:12 server id 1  end_log_pos 83218526 CRC32 0xf0b312bf 	Query	thread_id=880090	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691392/*!*/;
+BEGIN
+/*!*/;
+# at 83218526
+# at 83218609
+# at 83218834
+#180704 16:03:12 server id 1  end_log_pos 83218865 CRC32 0xb29d1a6f 	Xid = 37757
+COMMIT/*!*/;
+# at 83218865
+#180704 16:03:12 server id 1  end_log_pos 83218930 CRC32 0x67295cea 	Anonymous_GTID	last_committed=9998	sequence_number=9999
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83218930
+#180704 16:03:12 server id 1  end_log_pos 83218993 CRC32 0x1f3e5788 	Query	thread_id=880089	exec_time=4294966490	error_code=0
+SET TIMESTAMP=1530691392/*!*/;
+BEGIN
+/*!*/;
+# at 83218993
+# at 83219076
+# at 83219301
+#180704 16:03:12 server id 1  end_log_pos 83219332 CRC32 0xbf918280 	Xid = 37759
+COMMIT/*!*/;
+# at 83219332
+#180704 16:03:12 server id 1  end_log_pos 83219397 CRC32 0xb8383de4 	Anonymous_GTID	last_committed=9999	sequence_number=10000
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83219397
+#180704 16:03:12 server id 1  end_log_pos 83219460 CRC32 0x53a1bf21 	Query	thread_id=880089	exec_time=4294966490	error_code=0
+SET TIMESTAMP=1530691392/*!*/;
+BEGIN
+/*!*/;
+# at 83219460
+# at 83219543
+# at 83219768
+#180704 16:03:12 server id 1  end_log_pos 83219799 CRC32 0x2d8c5a81 	Xid = 37761
+COMMIT/*!*/;
+# at 83219799
+#180704 16:03:13 server id 1  end_log_pos 83219864 CRC32 0x3103e9f8 	Anonymous_GTID	last_committed=10000	sequence_number=10001
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83219864
+#180704 16:03:13 server id 1  end_log_pos 83219927 CRC32 0xf1520028 	Query	thread_id=880089	exec_time=4294966490	error_code=0
+SET TIMESTAMP=1530691393/*!*/;
+BEGIN
+/*!*/;
+# at 83219927
+# at 83220010
+# at 83220235
+#180704 16:03:13 server id 1  end_log_pos 83220266 CRC32 0x3cec30e8 	Xid = 37763
+COMMIT/*!*/;
+# at 83220266
+#180704 16:03:20 server id 1  end_log_pos 83220331 CRC32 0xa302327c 	Anonymous_GTID	last_committed=10001	sequence_number=10002
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83220331
+#180704 16:03:20 server id 1  end_log_pos 83220394 CRC32 0xe5dff4f6 	Query	thread_id=880090	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691400/*!*/;
+BEGIN
+/*!*/;
+# at 83220394
+# at 83220477
+# at 83220702
+#180704 16:03:20 server id 1  end_log_pos 83220733 CRC32 0xb048af2e 	Xid = 37765
+COMMIT/*!*/;
+# at 83220733
+#180704 16:03:23 server id 1  end_log_pos 83220798 CRC32 0x5b72a643 	Anonymous_GTID	last_committed=10002	sequence_number=10003
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83220798
+#180704 16:03:23 server id 1  end_log_pos 83220861 CRC32 0x15e5d72f 	Query	thread_id=880090	exec_time=4294966490	error_code=0
+SET TIMESTAMP=1530691403/*!*/;
+BEGIN
+/*!*/;
+# at 83220861
+# at 83220944
+# at 83221245
+#180704 16:03:23 server id 1  end_log_pos 83221276 CRC32 0x6e9268e3 	Xid = 37767
+COMMIT/*!*/;
+# at 83221276
+#180704 16:03:25 server id 1  end_log_pos 83221341 CRC32 0x0b5a346b 	Anonymous_GTID	last_committed=10003	sequence_number=10004
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83221341
+#180704 16:03:25 server id 1  end_log_pos 83221404 CRC32 0xda4cd81e 	Query	thread_id=880090	exec_time=4294966490	error_code=0
+SET TIMESTAMP=1530691405/*!*/;
+BEGIN
+/*!*/;
+# at 83221404
+# at 83221487
+# at 83221788
+#180704 16:03:25 server id 1  end_log_pos 83221819 CRC32 0xcf0d2ad3 	Xid = 37769
+COMMIT/*!*/;
+# at 83221819
+#180704 16:03:33 server id 1  end_log_pos 83221884 CRC32 0x99be3049 	Anonymous_GTID	last_committed=10004	sequence_number=10005
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83221884
+#180704 16:03:33 server id 1  end_log_pos 83221947 CRC32 0x26eac4fa 	Query	thread_id=880090	exec_time=4294966490	error_code=0
+SET TIMESTAMP=1530691413/*!*/;
+BEGIN
+/*!*/;
+# at 83221947
+# at 83222030
+# at 83222331
+#180704 16:03:33 server id 1  end_log_pos 83222362 CRC32 0x60508b65 	Xid = 37771
+COMMIT/*!*/;
+# at 83222362
+#180704 16:03:38 server id 1  end_log_pos 83222427 CRC32 0x475a313c 	Anonymous_GTID	last_committed=10005	sequence_number=10006
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83222427
+#180704 16:03:38 server id 1  end_log_pos 83222490 CRC32 0x07fa499e 	Query	thread_id=880089	exec_time=4294966490	error_code=0
+SET TIMESTAMP=1530691418/*!*/;
+BEGIN
+/*!*/;
+# at 83222490
+# at 83222573
+# at 83222798
+#180704 16:03:38 server id 1  end_log_pos 83222829 CRC32 0xc455eaf4 	Xid = 37773
+COMMIT/*!*/;
+# at 83222829
+#180704 16:03:39 server id 1  end_log_pos 83222894 CRC32 0x25234054 	Anonymous_GTID	last_committed=10006	sequence_number=10007
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83222894
+#180704 16:03:39 server id 1  end_log_pos 83222957 CRC32 0xa3ecad86 	Query	thread_id=880089	exec_time=4294966490	error_code=0
+SET TIMESTAMP=1530691419/*!*/;
+BEGIN
+/*!*/;
+# at 83222957
+# at 83223040
+# at 83223341
+#180704 16:03:39 server id 1  end_log_pos 83223372 CRC32 0x99722ddc 	Xid = 37775
+COMMIT/*!*/;
+# at 83223372
+#180704 16:04:00 server id 1  end_log_pos 83223437 CRC32 0xcfbb460a 	Anonymous_GTID	last_committed=10007	sequence_number=10008
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83223437
+#180704 16:04:00 server id 1  end_log_pos 83223500 CRC32 0xac0ad7f1 	Query	thread_id=880298	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691440/*!*/;
+BEGIN
+/*!*/;
+# at 83223500
+# at 83223582
+# at 83223658
+#180704 16:04:00 server id 1  end_log_pos 83223689 CRC32 0x06a6d300 	Xid = 37777
+COMMIT/*!*/;
+# at 83223689
+#180704 16:05:00 server id 1  end_log_pos 83223754 CRC32 0x70af6ace 	Anonymous_GTID	last_committed=10008	sequence_number=10009
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83223754
+#180704 16:05:00 server id 1  end_log_pos 83223817 CRC32 0x7922c720 	Query	thread_id=862325	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691500/*!*/;
+BEGIN
+/*!*/;
+# at 83223817
+# at 83223913
+# at 83225836
+#180704 16:05:00 server id 1  end_log_pos 83225867 CRC32 0x6029183e 	Xid = 37779
+COMMIT/*!*/;
+# at 83225867
+#180704 16:05:00 server id 1  end_log_pos 83225932 CRC32 0x90bbcc29 	Anonymous_GTID	last_committed=10009	sequence_number=10010
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83225932
+#180704 16:05:00 server id 1  end_log_pos 83225995 CRC32 0xcb9cb587 	Query	thread_id=862325	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691500/*!*/;
+BEGIN
+/*!*/;
+# at 83225995
+# at 83226091
+# at 83228014
+#180704 16:05:00 server id 1  end_log_pos 83228045 CRC32 0x33f3c05a 	Xid = 37781
+COMMIT/*!*/;
+# at 83228045
+#180704 16:05:00 server id 1  end_log_pos 83228110 CRC32 0x0bb159d0 	Anonymous_GTID	last_committed=10010	sequence_number=10011
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83228110
+#180704 16:05:00 server id 1  end_log_pos 83228173 CRC32 0x5b7272f6 	Query	thread_id=862325	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691500/*!*/;
+BEGIN
+/*!*/;
+# at 83228173
+# at 83228269
+# at 83230192
+#180704 16:05:00 server id 1  end_log_pos 83230223 CRC32 0xf40253cb 	Xid = 37783
+COMMIT/*!*/;
+# at 83230223
+#180704 16:05:00 server id 1  end_log_pos 83230288 CRC32 0xe61f46e4 	Anonymous_GTID	last_committed=10011	sequence_number=10012
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83230288
+#180704 16:05:00 server id 1  end_log_pos 83230351 CRC32 0xe9cc0051 	Query	thread_id=862325	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691500/*!*/;
+BEGIN
+/*!*/;
+# at 83230351
+# at 83230447
+# at 83232370
+#180704 16:05:00 server id 1  end_log_pos 83232401 CRC32 0xf8d19ff9 	Xid = 37785
+COMMIT/*!*/;
+# at 83232401
+#180704 16:05:00 server id 1  end_log_pos 83232466 CRC32 0x3dff8bb8 	Anonymous_GTID	last_committed=10012	sequence_number=10013
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83232466
+#180704 16:05:00 server id 1  end_log_pos 83232529 CRC32 0xc34b7ee4 	Query	thread_id=862325	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691500/*!*/;
+BEGIN
+/*!*/;
+# at 83232529
+# at 83232625
+# at 83234548
+#180704 16:05:00 server id 1  end_log_pos 83234579 CRC32 0x5f7cb923 	Xid = 37787
+COMMIT/*!*/;
+# at 83234579
+#180704 16:05:00 server id 1  end_log_pos 83234644 CRC32 0xddeb2d5f 	Anonymous_GTID	last_committed=10013	sequence_number=10014
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83234644
+#180704 16:05:00 server id 1  end_log_pos 83234707 CRC32 0x71f50c43 	Query	thread_id=862325	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691500/*!*/;
+BEGIN
+/*!*/;
+# at 83234707
+# at 83234803
+# at 83237038
+#180704 16:05:00 server id 1  end_log_pos 83237069 CRC32 0x3f8461d9 	Xid = 37789
+COMMIT/*!*/;
+# at 83237069
+#180704 16:05:00 server id 1  end_log_pos 83237134 CRC32 0xf928762b 	Anonymous_GTID	last_committed=10014	sequence_number=10015
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83237134
+#180704 16:05:00 server id 1  end_log_pos 83237197 CRC32 0x4cb6e317 	Query	thread_id=862325	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691500/*!*/;
+BEGIN
+/*!*/;
+# at 83237197
+# at 83237293
+# at 83239216
+#180704 16:05:00 server id 1  end_log_pos 83239247 CRC32 0x9f50aa2c 	Xid = 37791
+COMMIT/*!*/;
+# at 83239247
+#180704 16:05:00 server id 1  end_log_pos 83239312 CRC32 0x9a4bc747 	Anonymous_GTID	last_committed=10015	sequence_number=10016
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83239312
+#180704 16:05:00 server id 1  end_log_pos 83239375 CRC32 0xb45d7462 	Query	thread_id=862325	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691500/*!*/;
+BEGIN
+/*!*/;
+# at 83239375
+# at 83239471
+# at 83241394
+#180704 16:05:00 server id 1  end_log_pos 83241425 CRC32 0x7b4ebe00 	Xid = 37793
+COMMIT/*!*/;
+# at 83241425
+#180704 16:05:00 server id 1  end_log_pos 83241490 CRC32 0xcdd5702f 	Anonymous_GTID	last_committed=10016	sequence_number=10017
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83241490
+#180704 16:05:00 server id 1  end_log_pos 83241553 CRC32 0xc48c6073 	Query	thread_id=862325	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691500/*!*/;
+BEGIN
+/*!*/;
+# at 83241553
+# at 83241649
+# at 83243572
+#180704 16:05:00 server id 1  end_log_pos 83243603 CRC32 0x08b88b4b 	Xid = 37795
+COMMIT/*!*/;
+# at 83243603
+#180704 16:05:11 server id 1  end_log_pos 83243668 CRC32 0x0a520c77 	Anonymous_GTID	last_committed=10017	sequence_number=10018
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83243668
+#180704 16:05:11 server id 1  end_log_pos 83243731 CRC32 0x3e1699ae 	Query	thread_id=880329	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691511/*!*/;
+BEGIN
+/*!*/;
+# at 83243731
+# at 83243802
+# at 83243874
+#180704 16:05:11 server id 1  end_log_pos 83243905 CRC32 0x7935eb87 	Xid = 37797
+COMMIT/*!*/;
+# at 83243905
+#180704 16:05:11 server id 1  end_log_pos 83243970 CRC32 0x0a931bbd 	Anonymous_GTID	last_committed=10018	sequence_number=10019
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83243970
+#180704 16:05:11 server id 1  end_log_pos 83244033 CRC32 0x56606da3 	Query	thread_id=880329	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691511/*!*/;
+BEGIN
+/*!*/;
+# at 83244033
+# at 83244102
+# at 83244181
+#180704 16:05:11 server id 1  end_log_pos 83244212 CRC32 0x6916c07b 	Xid = 37799
+COMMIT/*!*/;
+# at 83244212
+#180704 16:05:11 server id 1  end_log_pos 83244277 CRC32 0x6d30709d 	Anonymous_GTID	last_committed=10019	sequence_number=10020
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83244277
+#180704 16:05:11 server id 1  end_log_pos 83244340 CRC32 0xc6ff506c 	Query	thread_id=880329	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691511/*!*/;
+BEGIN
+/*!*/;
+# at 83244340
+# at 83244411
+# at 83244499
+#180704 16:05:11 server id 1  end_log_pos 83244530 CRC32 0x1871b78b 	Xid = 37801
+COMMIT/*!*/;
+# at 83244530
+#180704 16:05:11 server id 1  end_log_pos 83244595 CRC32 0xb6b3f1af 	Anonymous_GTID	last_committed=10020	sequence_number=10021
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83244595
+#180704 16:05:11 server id 1  end_log_pos 83244658 CRC32 0x0a15fbc1 	Query	thread_id=880329	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691511/*!*/;
+BEGIN
+/*!*/;
+# at 83244658
+# at 83244727
+# at 83244811
+#180704 16:05:11 server id 1  end_log_pos 83244842 CRC32 0xad293ff4 	Xid = 37803
+COMMIT/*!*/;
+# at 83244842
+#180704 16:05:50 server id 1  end_log_pos 83244907 CRC32 0xfd6854ed 	Anonymous_GTID	last_committed=10021	sequence_number=10022
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83244907
+#180704 16:05:50 server id 1  end_log_pos 83244970 CRC32 0x1233fe68 	Query	thread_id=880089	exec_time=4294966490	error_code=0
+SET TIMESTAMP=1530691550/*!*/;
+BEGIN
+/*!*/;
+# at 83244970
+# at 83245053
+# at 83245353
+#180704 16:05:50 server id 1  end_log_pos 83245384 CRC32 0x4e574133 	Xid = 37805
+COMMIT/*!*/;
+# at 83245384
+#180704 16:05:52 server id 1  end_log_pos 83245449 CRC32 0xdb4d4037 	Anonymous_GTID	last_committed=10022	sequence_number=10023
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83245449
+#180704 16:05:52 server id 1  end_log_pos 83245512 CRC32 0x693b506b 	Query	thread_id=880089	exec_time=4294966490	error_code=0
+SET TIMESTAMP=1530691552/*!*/;
+BEGIN
+/*!*/;
+# at 83245512
+# at 83245595
+# at 83245896
+#180704 16:05:52 server id 1  end_log_pos 83245927 CRC32 0x6b984999 	Xid = 37807
+COMMIT/*!*/;
+# at 83245927
+#180704 16:06:00 server id 1  end_log_pos 83245992 CRC32 0xc037dee2 	Anonymous_GTID	last_committed=10023	sequence_number=10024
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83245992
+#180704 16:06:00 server id 1  end_log_pos 83246055 CRC32 0x2d146ddd 	Query	thread_id=880095	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691560/*!*/;
+BEGIN
+/*!*/;
+# at 83246055
+# at 83246137
+# at 83246213
+#180704 16:06:00 server id 1  end_log_pos 83246244 CRC32 0x03f3879a 	Xid = 37809
+COMMIT/*!*/;
+# at 83246244
+#180704 16:08:00 server id 1  end_log_pos 83246309 CRC32 0x674feb4f 	Anonymous_GTID	last_committed=10024	sequence_number=10025
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83246309
+#180704 16:08:00 server id 1  end_log_pos 83246372 CRC32 0x44cf06c6 	Query	thread_id=879972	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691680/*!*/;
+BEGIN
+/*!*/;
+# at 83246372
+# at 83246454
+# at 83246530
+#180704 16:08:00 server id 1  end_log_pos 83246561 CRC32 0x2e16465a 	Xid = 37821
+COMMIT/*!*/;
+# at 83246561
+#180704 16:08:40 server id 1  end_log_pos 83246626 CRC32 0x50107b9f 	Anonymous_GTID	last_committed=10025	sequence_number=10026
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83246626
+#180704 16:08:40 server id 1  end_log_pos 83246689 CRC32 0xcb16ce5d 	Query	thread_id=880283	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691720/*!*/;
+BEGIN
+/*!*/;
+# at 83246689
+#180704 16:08:40 server id 1  end_log_pos 83246748 CRC32 0x25f3366b 	Table_map: `ebtce`.`tiancangcang` mapped to number 2626
+# at 83246748
+#180704 16:08:40 server id 1  end_log_pos 83246795 CRC32 0x54dce36b 	Write_rows: table id 2626 flags: STMT_END_F
+### INSERT INTO `ebtce`.`tiancangcang`
+### SET
+###   @1=6
+###   @2='WHERE'
+# at 83246795
+#180704 16:08:40 server id 1  end_log_pos 83246826 CRC32 0xdc3f6d5a 	Xid = 37823
+COMMIT/*!*/;
+# at 83246826
+#180704 16:10:00 server id 1  end_log_pos 83246891 CRC32 0xcf84a30c 	Anonymous_GTID	last_committed=10026	sequence_number=10027
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83246891
+#180704 16:10:00 server id 1  end_log_pos 83246954 CRC32 0x0b7ebc8c 	Query	thread_id=862325	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691800/*!*/;
+BEGIN
+/*!*/;
+# at 83246954
+# at 83247050
+# at 83248973
+#180704 16:10:00 server id 1  end_log_pos 83249004 CRC32 0xdfe23c80 	Xid = 37825
+COMMIT/*!*/;
+# at 83249004
+#180704 16:10:00 server id 1  end_log_pos 83249069 CRC32 0x255b5f1f 	Anonymous_GTID	last_committed=10027	sequence_number=10028
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83249069
+#180704 16:10:00 server id 1  end_log_pos 83249132 CRC32 0x30f0cecc 	Query	thread_id=862325	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691800/*!*/;
+BEGIN
+/*!*/;
+# at 83249132
+# at 83249228
+# at 83251151
+#180704 16:10:00 server id 1  end_log_pos 83251182 CRC32 0xa5d9c3df 	Xid = 37827
+COMMIT/*!*/;
+# at 83251182
+#180704 16:10:00 server id 1  end_log_pos 83251247 CRC32 0x5254e7b1 	Anonymous_GTID	last_committed=10028	sequence_number=10029
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83251247
+#180704 16:10:00 server id 1  end_log_pos 83251310 CRC32 0x7b649be4 	Query	thread_id=862325	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691800/*!*/;
+BEGIN
+/*!*/;
+# at 83251310
+# at 83251406
+# at 83253329
+#180704 16:10:00 server id 1  end_log_pos 83253360 CRC32 0x8498ecd4 	Xid = 37829
+COMMIT/*!*/;
+# at 83253360
+#180704 16:10:00 server id 1  end_log_pos 83253425 CRC32 0x803bebd0 	Anonymous_GTID	last_committed=10029	sequence_number=10030
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83253425
+#180704 16:10:00 server id 1  end_log_pos 83253488 CRC32 0x347ef160 	Query	thread_id=862325	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691800/*!*/;
+BEGIN
+/*!*/;
+# at 83253488
+# at 83253584
+# at 83255507
+#180704 16:10:00 server id 1  end_log_pos 83255538 CRC32 0xf9dafea4 	Xid = 37831
+COMMIT/*!*/;
+# at 83255538
+#180704 16:10:00 server id 1  end_log_pos 83255603 CRC32 0x30032766 	Anonymous_GTID	last_committed=10030	sequence_number=10031
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83255603
+#180704 16:10:00 server id 1  end_log_pos 83255666 CRC32 0x6f034e59 	Query	thread_id=862325	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691800/*!*/;
+BEGIN
+/*!*/;
+# at 83255666
+# at 83255762
+# at 83257685
+#180704 16:10:00 server id 1  end_log_pos 83257716 CRC32 0x1074422a 	Xid = 37833
+COMMIT/*!*/;
+# at 83257716
+#180704 16:10:00 server id 1  end_log_pos 83257781 CRC32 0x927aae80 	Anonymous_GTID	last_committed=10031	sequence_number=10032
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83257781
+#180704 16:10:00 server id 1  end_log_pos 83257844 CRC32 0xf9ea54f3 	Query	thread_id=862325	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691800/*!*/;
+BEGIN
+/*!*/;
+# at 83257844
+# at 83257940
+# at 83259863
+#180704 16:10:00 server id 1  end_log_pos 83259894 CRC32 0xde481baf 	Xid = 37835
+COMMIT/*!*/;
+# at 83259894
+#180704 16:10:00 server id 1  end_log_pos 83259959 CRC32 0xf3fecb80 	Anonymous_GTID	last_committed=10032	sequence_number=10033
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83259959
+#180704 16:10:00 server id 1  end_log_pos 83260022 CRC32 0x4d53fb8f 	Query	thread_id=862325	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691800/*!*/;
+BEGIN
+/*!*/;
+# at 83260022
+# at 83260118
+# at 83262353
+#180704 16:10:00 server id 1  end_log_pos 83262384 CRC32 0x9b03c849 	Xid = 37837
+COMMIT/*!*/;
+# at 83262384
+#180704 16:10:00 server id 1  end_log_pos 83262449 CRC32 0x7f686e2e 	Anonymous_GTID	last_committed=10033	sequence_number=10034
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83262449
+#180704 16:10:00 server id 1  end_log_pos 83262512 CRC32 0xdd02823a 	Query	thread_id=862325	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691800/*!*/;
+BEGIN
+/*!*/;
+# at 83262512
+# at 83262608
+# at 83264531
+#180704 16:10:00 server id 1  end_log_pos 83264562 CRC32 0x86d568dd 	Xid = 37839
+COMMIT/*!*/;
+# at 83264562
+#180704 16:10:00 server id 1  end_log_pos 83264627 CRC32 0x35fd753a 	Anonymous_GTID	last_committed=10034	sequence_number=10035
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83264627
+#180704 16:10:00 server id 1  end_log_pos 83264690 CRC32 0xd7cf8446 	Query	thread_id=862325	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691800/*!*/;
+BEGIN
+/*!*/;
+# at 83264690
+# at 83264786
+# at 83266709
+#180704 16:10:00 server id 1  end_log_pos 83266740 CRC32 0xce563cfd 	Xid = 37841
+COMMIT/*!*/;
+# at 83266740
+#180704 16:10:00 server id 1  end_log_pos 83266805 CRC32 0x38dad642 	Anonymous_GTID	last_committed=10035	sequence_number=10036
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83266805
+#180704 16:10:00 server id 1  end_log_pos 83266868 CRC32 0xf3242717 	Query	thread_id=879845	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691800/*!*/;
+BEGIN
+/*!*/;
+# at 83266868
+# at 83266950
+# at 83267026
+#180704 16:10:00 server id 1  end_log_pos 83267057 CRC32 0x94ff7b99 	Xid = 37843
+COMMIT/*!*/;
+# at 83267057
+#180704 16:12:00 server id 1  end_log_pos 83267122 CRC32 0xc462143e 	Anonymous_GTID	last_committed=10036	sequence_number=10037
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83267122
+#180704 16:12:00 server id 1  end_log_pos 83267185 CRC32 0xb9286eff 	Query	thread_id=880298	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530691920/*!*/;
+BEGIN
+/*!*/;
+# at 83267185
+# at 83267267
+# at 83267343
+#180704 16:12:00 server id 1  end_log_pos 83267374 CRC32 0xea496b62 	Xid = 37855
+COMMIT/*!*/;
+# at 83267374
+#180704 16:13:18 server id 1  end_log_pos 83267439 CRC32 0xdf5ddce2 	Anonymous_GTID	last_committed=10037	sequence_number=10038
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83267439
+#180704 16:13:18 server id 1  end_log_pos 83267566 CRC32 0x07eb2b07 	Query	thread_id=880268	exec_time=4294966490	error_code=0
+use `ebtce`/*!*/;
+SET TIMESTAMP=1530691998/*!*/;
+SET @@session.sql_mode=1436549152/*!*/;
+DROP TABLE `tiancangcang` /* generated by server */
+/*!*/;
+# at 83267566
+#180704 16:14:00 server id 1  end_log_pos 83267631 CRC32 0x80b2e026 	Anonymous_GTID	last_committed=10038	sequence_number=10039
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 83267631
+#180704 16:14:00 server id 1  end_log_pos 83267694 CRC32 0x8846b21c 	Query	thread_id=880298	exec_time=4294966489	error_code=0
+SET TIMESTAMP=1530692040/*!*/;
+SET @@session.sql_mode=524288/*!*/;
+BEGIN
+/*!*/;
+# at 83267694
+# at 83267776
+# at 83267852
+#180704 16:14:00 server id 1  end_log_pos 83267883 CRC32 0x3c03c47d 	Xid = 37858
+COMMIT/*!*/;
+SET @@SESSION.GTID_NEXT= 'AUTOMATIC' /* added by mysqlbinlog */ /*!*/;
+DELIMITER ;
+# End of log file
+/*!50003 SET COMPLETION_TYPE=@OLD_COMPLETION_TYPE*/;
+/*!50530 SET @@SESSION.PSEUDO_SLAVE_MODE=0*/;
