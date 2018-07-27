@@ -1,0 +1,3 @@
+/opt/mydumper-0.9.3/CMakeFiles/dist.dir
+/opt/mydumper-0.9.3/CMakeFiles/mydumper.dir
+/opt/mydumper-0.9.3/CMakeFiles/myloader.dir
