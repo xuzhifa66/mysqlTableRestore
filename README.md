@@ -1,6 +1,9 @@
 # mysqlTableRestore
 This is a mysql table recovery tool (Caused by deletion error).
 
+mysqlTableRestore.py的参数说明：
+
+
 -h：数据要恢复到哪个数据库服务器就写上它的地址。
 
 -u：数据库服务器的用户名（注意：这里的用户需要有alter，insert，update，delete，create权限）
