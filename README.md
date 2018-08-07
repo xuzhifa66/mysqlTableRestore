@@ -15,7 +15,11 @@ export MYSQL_DATA_DIR= 你的mysql数据文件所在的目录
 
 python install.py
 
-
+使用说明：
+-
+1、要使用mysqlTableRestore恢复被误删除的表，需要提前使用mydumper进行备份。mydumper已经在mysqlTableRestore的压缩包内了，不需要额外的安装。
+2、目前mysqlTableRestore只支持恢复被“drop table”命令所删除的表。
+3、mysql的binlog需要开启
 
 mysqlTableRestore.py的参数说明：
 -
