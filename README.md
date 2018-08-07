@@ -22,8 +22,11 @@ python install.py
 2、目前mysqlTableRestore只支持恢复被“drop table”命令所删除的表。
 
 3、mysql的binlog参数要确认符合下面的值：
+
 binlog_format=ROW
+
 binlog_row_image=FULL
+
 log_bin=ON
 
 
