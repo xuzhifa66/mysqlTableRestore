@@ -7,9 +7,9 @@ This is a mysql table recovery tool (Caused by deletion error).
 
 2、安装依赖的python模块pymysql
 
-3、进入解压后所生成的目录，并且设置“MYSQL_DATA_DIR”环境变量。
+3、进入解压后所生成的目录，并且设置“MYSQL_BINLOG_DIR”环境变量。
 
-export MYSQL_DATA_DIR= 你的mysql数据文件所在的目录
+export MYSQL_DATA_DIR= mysql的binlog文件所在的目录
 
 4、设置好环境变量之后在当前会话执行下面的命令
 
