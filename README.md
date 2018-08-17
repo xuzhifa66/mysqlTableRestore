@@ -1,7 +1,7 @@
 # mysqlTableRestore
 This is a mysql table recovery tool (Caused by deletion error).
 
-mysqlTableRestore是一个快速的恢复误删除表的工具。恢复过程是将指定的mydumer备份文件恢复到目标库中，再把备份之后产生的数据通过解析binlog文件恢复到目标库中。
+mysqlTableRestore是一个快速的恢复误删除表的工具。恢复过程是将指定的mydumper备份文件恢复到目标库中，再把备份之后产生的数据通过解析binlog文件恢复到目标库中。
 
 使用mysqlTableRestore比原始手动恢复误删除表的做法会快很多，原因如下：
 
