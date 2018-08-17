@@ -1,6 +1,16 @@
 # mysqlTableRestore
 This is a mysql table recovery tool (Caused by deletion error).
 
+mysqlTableRestore是一个快速的恢复误删除表的工具。恢复过程是将指定的mydumer备份文件恢复到目标库中，再把备份之后产生的数据通过解析binlog文件恢复到目标库中。
+
+使用mysqlTableRestore比原始手动恢复误删除表的做法会快很多，原因如下：
+
+1、mysqlTableRestore使用了myloader，也就是说备份可以进行多线程的并行恢复某一张表。
+
+2、mysqlTableRestore解析一个binlog日志文件的时候可以只解析出单个表的日志信息，不需要先通过mysqlbinlog解析出数据再使用脚本提取出指定表的日志信息。
+
+3、mysqlTableRestore会自动帮你完成备份的恢复，日志找点，日志恢复，这只需要你的一个命令即可完成。大大提高了效率以及减少了失误的概率。
+
 安装说明：
 -
 1、把下载好的安装包解压
@@ -28,6 +38,8 @@ binlog_format=ROW
 binlog_row_image=FULL
 
 log_bin=ON
+
+4、mysqlTableRestore的恢复表是通过mydumper备份加上binlog日志，如果数据不在备份或者日志当中存在那将无法恢复。
 
 
 mysqlTableRestore.py的参数说明：
