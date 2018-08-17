@@ -11,19 +11,6 @@ mysqlTableRestore是一个快速的恢复误删除表的工具。恢复过程是
 
 3、mysqlTableRestore会自动帮你完成备份的恢复，日志找点，日志恢复，这只需要你的一个命令即可完成。大大提高了效率以及减少了失误的概率。
 
-安装说明：
--
-1、把下载好的安装包解压
-
-2、安装依赖的python模块pymysql
-
-3、进入解压后所生成的目录，并且设置“MYSQL_BINLOG_DIR”环境变量。
-
-export MYSQL_DATA_DIR= mysql的binlog文件所在的目录
-
-4、设置好环境变量之后在当前会话执行下面的命令
-
-python install.py
 
 使用说明：
 -
@@ -41,6 +28,23 @@ log_bin=ON
 
 4、mysqlTableRestore的恢复表是通过mydumper备份加上binlog日志，如果数据不在备份或者日志当中存在那将无法恢复。
 
+5、需要对数据库有更改权限，对binlog文件以及mydumper备份文件要有执行的权限。
+
+6、python2.7版本
+
+安装说明：
+-
+1、把下载好的安装包解压
+
+2、安装依赖的python模块pymysql
+
+3、进入解压后所生成的目录，并且设置“MYSQL_BINLOG_DIR”环境变量。
+
+export MYSQL_DATA_DIR= mysql的binlog文件所在的目录
+
+4、设置好环境变量之后在当前会话执行下面的命令
+
+python install.py
 
 mysqlTableRestore.py的参数说明：
 -
@@ -63,4 +67,7 @@ mysqlTableRestore.py的参数说明：
 
 -n：这个参数后面不需要跟上其他内容，如果没有这个参数，他会在恢复的表名后面跟上“_Bu”后缀。
 
+案例：
+-
 
+python /code/testRestore.py -h 127.0.0.1 -u dba -p 'XXXXX' -P 3306 -d ebtce -t Helius -f /mysqldata/backup/special_backup_2018_05_15_10_21/
