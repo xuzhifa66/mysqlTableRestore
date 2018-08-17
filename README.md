@@ -70,4 +70,4 @@ mysqlTableRestore.py的参数说明：
 案例：
 -
 
-python /code/testRestore.py -h 127.0.0.1 -u dba -p 'XXXXX' -P 3306 -d ebtce -t Helius -f /mysqldata/backup/special_backup_2018_05_15_10_21/
+python /code/testRestore.py -h 127.0.0.1 -u dba -p 'XXXXX' -P 3306 -d datatest -t tabletest -f /mysqldata/backup/special_backup_2018_05_15_10_21/
