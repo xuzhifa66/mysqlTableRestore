@@ -71,3 +71,7 @@ mysqlTableRestore.py的参数说明：
 -
 
 python /code/mysqlTableRestore.py -h 127.0.0.1 -u dba -p 'XXXXX' -P 3306 -d datatest -t tabletest -f /mysqldata/backup/special_backup_2018_05_15_10_21/
+
+联系方式：
+-
+微信号：
