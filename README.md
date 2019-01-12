@@ -74,4 +74,4 @@ python /code/mysqlTableRestore.py -h 127.0.0.1 -u dba -p 'XXXXX' -P 3306 -d data
 
 联系方式：
 -
-微信号：
+微信号：xuzhifa66
